@@ -1,0 +1,63 @@
+/* Estilos gerais */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Fonte mais moderna */
+    margin: 0;
+    padding: 0;
+    background-color: #eef2f3; /* Cor de fundo suave */
+}
+
+/* Estilos do cabeçalho */
+header {
+    background: linear-gradient(135deg, #6a82fb, #fc5c7d); /* Gradiente colorido */
+    color: #fff;
+    padding: 20px 0; /* Mais espaço para um visual mais leve */
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombra para dar profundidade */
+}
+
+/* Navegação */
+nav ul {
+    list-style: none; /* Remove os marcadores da lista */
+    padding: 0;
+    margin: 0; /* Adicionando margem zero para evitar espaçamento indesejado */
+}
+
+nav ul li {
+    display: inline; /* Exibe os itens da lista em linha */
+    margin: 0 20px; /* Aumenta o espaçamento entre os itens */
+}
+
+nav ul li a {
+    color: #fff; /* Cor do texto dos links */
+    text-decoration: none; /* Remove o sublinhado dos links */
+    font-weight: bold; /* Torna o texto mais destacado */
+    transition: color 0.3s; /* Efeito de transição suave */
+}
+
+nav ul li a:hover {
+    color: #ffd700; /* Cor de destaque ao passar o mouse */
+}
+
+/* Estilos das seções */
+section {
+    padding: 25px; /* Espaçamento interno */
+    margin: 15px; /* Espaçamento externo */
+    background: #fff; /* Cor de fundo das seções */
+    border-radius: 10px; /* Bordas mais arredondadas */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Sombra mais suave */
+    transition: transform 0.3s; /* Efeito de transição ao passar o mouse */
+}
+
+section:hover {
+    transform: translateY(-5px); /* Eleva a seção ao passar o mouse */
+}
+
+/* Estilos do rodapé */
+footer {
+    text-align: center; /* Centraliza o texto */
+    padding: 15px; /* Aumenta o espaçamento interno */
+    background: #333; /* Cor de fundo do rodapé */
+    color: #fff; /* Cor do texto do rodapé */
+    position: relative; /* Ajusta a posição do rodapé */
+    width: 100%; /* Largura total */
+}
