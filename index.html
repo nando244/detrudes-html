@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
+<head>  
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Um resumo da minha trajetória escolar, incluindo aprendizados e atividades extracurriculares.">
     <title>Minha Vida Escolar</title>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -14,18 +15,23 @@
                 <li><a href="#introducao">Introdução</a></li>
                 <li><a href="#aprendizados">Aprendizados</a></li>
                 <li><a href="#atividades">Atividades Extracurriculares</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#depoimentos">Depoimentos</a></li>
                 <li><a href="#conclusao">Conclusão</a></li>
+                <li><a href="#contato">Contato</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <section id="introducao">
+        <article id="introducao">
             <h2>Introdução</h2>
             <p>Minha trajetória escolar é um reflexo das experiências e conhecimentos que adquiri ao longo dos anos. Desde o início da minha jornada acadêmica, sempre busquei um aprendizado que não apenas se limitasse às disciplinas tradicionais, mas que também me preparasse para os desafios do mundo contemporâneo. Este espaço é dedicado a compartilhar os principais marcos dessa jornada, as lições valiosas que aprendi e as atividades que contribuíram para o meu desenvolvimento pessoal e acadêmico.</p>
-        </section>
+            <img src="imagem-introducao.jpg" alt="Foto da minha escola" />
+        </article>
 
-        <section id="aprendizados">
+        <article id="aprendizados">
             <h2>Aprendizados</h2>
             <ul>
                 <li>Matemática: Aprendi a resolver problemas e entender conceitos básicos de álgebra.</li>
@@ -33,23 +39,79 @@
                 <li>Língua Portuguesa: Melhorei minha escrita e leitura.</li>
                 <li>História: Conheci sobre as civilizações antigas e sua influência no mundo moderno.</li>
             </ul>
-        </section>
+        </article>
 
-        <section id="atividades">
+        <article id="atividades">
             <h2>Atividades Extracurriculares</h2>
             <p>Participei de várias atividades que enriqueceram minha experiência escolar:</p>
             <ul>
                 <li>Clubes de ciência</li>
                 <li>Equipe de futebol</li>
                 <li>Teatro escolar</li>
+                <li>Voluntariado em projetos sociais</li>
+                <li>Competição de matemática</li>
             </ul>
-        </section>
+        </article>
 
-        <section id="conclusao">
+        <article id="habilidades">
+            <h2>Habilidades</h2>
+            <ul>
+                <li>Trabalho em equipe</li>
+                <li>Comunicação eficaz</li>
+                <li>Resolução de problemas</li>
+                <li>Gestão do tempo</li>
+                <li>Habilidades em tecnologia</li>
+            </ul>
+        </article>
+
+        <article id="projetos">
+            <h2>Projetos</h2>
+            <p>Alguns dos projetos que desenvolvi:</p>
+            <ul>
+                <li>Projeto de ciências: "O ciclo da água" – apresentação sobre a importância da preservação da água.</li>
+                <li>Peça teatral: "A história do Brasil" – participação como ator principal.</li>
+                <li>Aplicativo educativo: Desenvolvi um aplicativo sobre matemática para ajudar meus colegas.</li>
+            </ul>
+        </article>
+
+        <article id="depoimentos">
+            <h2>Depoimentos</h2>
+            <blockquote>
+                <p>"Fernando é um aluno dedicado e criativo. Suas contribuições nas aulas de ciências foram excepcionais." - Professor Silva</p>
+            </blockquote>
+            <blockquote>
+                <p>"Uma pessoa incrível! Sempre disposto a ajudar os colegas." - Maria, colega de classe</p>
+            </blockquote>
+        </article>
+
+        <article id="conclusao">
             <h2>Conclusão</h2>
             <p>Minha vida escolar foi cheia de aprendizados e experiências que me prepararam para o futuro. Ao refletir sobre essa trajetória, percebo que cada desafio enfrentado e cada conquista alcançada moldaram não apenas meu conhecimento acadêmico, mas também meu caráter e valores. As amizades que construí e as lições que aprendi fora da sala de aula foram igualmente significativas, ensinando-me sobre trabalho em equipe, empatia e resiliência.</p>
             <p>Estou animado para o que está por vir, ciente de que os fundamentos adquiridos durante minha vida escolar servirão como alicerces para as novas aventuras que me aguardam. A educação é uma jornada contínua, e espero seguir aprendendo e crescendo em cada passo do caminho.</p>
-        </section>
+        </article>
+
+        <article id="contato">
+            <h2>Contato</h2>
+            <p>Se você quiser entrar em contato comigo, envie um e-mail para <a href="mailto:fernando.berghahn@escola.pr.gov.br">fernando.berghahn@escola.pr.gov.br</a>.</p>
+            <p>Você também pode me seguir nas redes sociais:</p>
+            <ul>
+                <li><a href="https://www.linkedin.com/in/fernandoberghahn">LinkedIn</a></li>
+                <li><a href="https://www.instagram.com/fernandoberghahn7">Instagram</a></li>
+            </ul>
+        </article>
     </main>
 
-   
+    <footer>
+        <p>&copy; 2024 Minha Vida Escolar. Todos os direitos reservados.</p>
+        <button onclick="window.scrollTo(0, 0)">Voltar ao topo</button>
+    </footer>
+
+    <script>
+        // Script simples para melhorar a interatividade
+        const scrollToTopButton = document.querySelector("button");
+        scrollToTopButton.addEventListener("click", () => {
+            window.scrollTo({ top: 0, behavior: "smooth" });
+        });
+    </script>
+</body>
+</html>
